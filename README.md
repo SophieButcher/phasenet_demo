@@ -5,6 +5,7 @@ https://github.com/wayneweiqiang/PhaseNet
 
 Zhu, W. and Beroza, G.C., 2019. PhaseNet: a deep-neural-network-based seismic arrival-time picking method. Geophysical Journal International, 216(1), pp.261-273.
 
+If you git clone the original PhaseNet repository and install in the virtual environment as recommended, then the materials here can be included in the `phasenet/demo` directory to execute. 
 
 ### 1) Download data
 To run this notebook, you'll need some waveform data. PhaseNet takes in data in csv, hdf5 or miniseed file formats. If you do not have any local data to access then you can download a sample of data to run these notebooks. I use the ObsPy client to download data, and there is an example of how to do this in `demo/prepare_mseed_files`.
